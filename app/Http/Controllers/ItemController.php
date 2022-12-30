@@ -27,7 +27,7 @@ class ItemController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.items.create');
     }
 
     /**
@@ -38,7 +38,14 @@ class ItemController extends Controller
      */
     public function store(StoreItemRequest $request)
     {
-        //
+        $new_item = new Item();
+        $new_item->title = $request->title;
+        $new_item->price = $request->price;
+        $new_item->img = $request->image;
+        $new_item->details = $request->details;
+        $new_item->save();
+
+        return to_route('items.index');
     }
 
     /**
