@@ -67,7 +67,7 @@ class ItemController extends Controller
      */
     public function edit(Item $item)
     {
-        //
+        return view('admin.items.edit', compact('item'));
     }
 
     /**
@@ -79,7 +79,14 @@ class ItemController extends Controller
      */
     public function update(UpdateItemRequest $request, Item $item)
     {
-        //
+        $data = [
+            'title' => $request['title'],
+            'price' => $request['price'],
+            'image' => $request['img'],
+            'details' => $request['details'],
+        ];
+        $item->update($data);
+        return to_route('items.index');
     }
 
     /**

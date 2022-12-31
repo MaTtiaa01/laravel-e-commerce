@@ -29,7 +29,7 @@
                             <img width="50" src="{{$item->img}}" alt="">
                         </td>
                         <td class="d-flex flex-column">
-                            <a class="btn btn-primary" href="">edit</a>
+                            <a class="btn btn-primary" href="{{route('items.edit',$item->id)}}">edit</a>
                             <a class="btn btn-primary" href="{{route('items.show',$item->id)}}">show</a>
                             <a class="btn btn-danger" href="">delete</a>
                         </td>
