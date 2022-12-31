@@ -31,7 +31,11 @@
                         <td class="d-flex flex-column">
                             <a class="btn btn-primary" href="{{route('items.edit',$item->id)}}">edit</a>
                             <a class="btn btn-primary" href="{{route('items.show',$item->id)}}">show</a>
-                            <a class="btn btn-danger" href="">delete</a>
+                            <form action="{{route('items.destroy',$item->id)}}" method="post">
+                                @csrf
+                                @method('DELETE')
+                                <button class="btn btn-danger">delete</button>
+                            </form>
                         </td>
                     </tr>
                 </tbody>
