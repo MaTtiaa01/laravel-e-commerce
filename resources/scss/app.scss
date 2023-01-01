@@ -21,7 +21,16 @@ header {
 
             &:hover {
                 border: 1px solid white;
-                color: white;
+                color: rgba(253, 253, 11, 0.795);
+            }
+
+            form {
+                input {
+                    min-width: 500px;
+                    padding: 0.3rem;
+                    border: 1px solid black;
+                    border-radius: 2px;
+                }
             }
         }
     }
