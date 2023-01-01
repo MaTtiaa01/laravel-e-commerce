@@ -35,3 +35,39 @@ header {
         }
     }
 }
+
+
+//footer
+
+footer {
+    .footer_top {
+        background-color: rgb(109, 127, 166);
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .footer_bottom {
+        .row {
+            ul {
+                list-style: square;
+                margin: 0;
+            }
+        }
+
+        .bottom {
+            border-top: 1px solid white;
+            padding: 2rem 0;
+            margin-top: 1rem;
+
+            .country {
+                button {
+                    color: white;
+                    border: 1px solid white;
+                }
+            }
+        }
+    }
+}
