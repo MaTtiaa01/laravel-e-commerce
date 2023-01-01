@@ -3,6 +3,7 @@
 
 @section('content')
 
-<h1>welcome</h1>
+@include('partials.jumbotron')
+
 
 @endsection
