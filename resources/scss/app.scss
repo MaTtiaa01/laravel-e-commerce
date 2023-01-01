@@ -1,1 +1,28 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Utilities
+img {
+    max-width: 100%;
+}
+
+//header
+
+header {
+    .nav {
+        a {
+            color: white;
+            border: 1px solid transparent;
+
+            &:hover {
+                border: 1px solid white;
+                color: white;
+            }
+        }
+    }
+}
