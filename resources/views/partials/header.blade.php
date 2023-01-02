@@ -10,7 +10,7 @@
                 </svg> Italy
             </span>
         </a>
-        <a class="nav-link" href="#">
+        <div class="nav-link">
             <form action="{{route('items.index')}}" method="post">
                 @csrf
                 <input type="search" name="search" id="search" placeholder="Search a product">
@@ -20,7 +20,7 @@
                     </svg>
                 </button>
             </form>
-        </a>
+        </div>
         <a class="nav-link" href="#">
             <img width="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAACqCAMAAABVlWm8AAAACVBMVEUAkkb////OKzdsRJOSAAAAxklEQVR4nO3PMQEAAAjAILV/aFPsgwbMFLZwhaTv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v75/+HwW0qVdTeFEnAAAAAElFTkSuQmCC" alt="">
             <span>IT</span>

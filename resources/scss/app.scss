@@ -24,6 +24,19 @@ header {
                 color: rgba(253, 253, 11, 0.795);
             }
 
+
+        }
+
+        div.nav-link {
+            color: white;
+            border: 1px solid transparent;
+
+            &:hover {
+                border: 1px solid white;
+                color: rgba(253, 253, 11, 0.795);
+
+            }
+
             form {
                 input {
                     min-width: 500px;
@@ -32,9 +45,12 @@ header {
                     border-radius: 2px;
                 }
             }
+
+
         }
     }
 }
+
 
 
 //footer
