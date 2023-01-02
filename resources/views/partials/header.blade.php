@@ -25,7 +25,7 @@
             <img width="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAACqCAMAAABVlWm8AAAACVBMVEUAkkb////OKzdsRJOSAAAAxklEQVR4nO3PMQEAAAjAILV/aFPsgwbMFLZwhaTv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v75/+HwW0qVdTeFEnAAAAAElFTkSuQmCC" alt="">
             <span>IT</span>
         </a>
-        <a class="nav-link text-uppercase" href="#">Sing in</a>
+        <a class="nav-link text-uppercase" href="{{route('items.index')}}">Admin</a>
         <a class="nav-link" href="#">Returns & Orders</a>
         <a class="nav-link d-flex align-items-center" href="#">
             <span>
